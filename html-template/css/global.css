@@ -1,0 +1,86 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'robotoblack';
+  src: url('../fonts/roboto-black.eot');
+  src: url('../fonts/roboto-black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/roboto-black.woff') format('woff'),
+  url('../fonts/roboto-black.ttf') format('truetype'),
+  url('../fonts/roboto-black.svg#robotoblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* css reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,address{ padding:0; margin: 0;}
+table{border-collapse:collapse; border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+caption, th {text-align: left;}
+q:before,q:after{content:'';}
+.clear { clear:both; height:0; overflow:hidden;}
+.clearFix:after{ content:''; display:block; clear:both; height:0; visibility:hidden;}
+.hide { display:none;}
+input, button,textarea,select{font-family:'Microsoft Yahei','宋体',arial,sans-serif; font-size:14px; color:#333;-webkit-appearance:none;}
+img{vertical-align:top;max-width:100%;height:auto;}
+
+/* global */
+html{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { font-family:'Microsoft Yahei','宋体',arial,sans-serif; font-size:14px; color:#333; line-height:22px;}
+h1 { font-size:30px;}
+h2 { font-size:24px;}
+h3 { font-size:20px;}
+h4 { font-size:18px;}
+h5 { font-size:16px;}
+h6 { font-size:14px;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family:'Microsoft Yahei','宋体',arial,sans-serif;}
+a { color:#cc0000; text-decoration:none; outline:none;}
+a:visited { color:#cc0000; text-decoration:none; outline:none;}
+a:hover { color:#cc0000; text-decoration:underline; outline:none;}
+a:active { color:#cc0000; text-decoration:none; outline:none;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+em {font-style: italic;}
+strong {font-weight:normal;}
+
+/*form reset*/
+.btn{}
+.form-group{}
+.form-group .control-label{}
+.form-group .control-item{}
+.form-group .form-control{box-shadow: none;}
+
+/*bxslider*/
+.bx-wrapper .bx-prev,.bx-wrapper .bx-next{}
+
+
+
+
+
+
+/*=1199*/
+@media (max-width:1199){
+
+}
+
+
+/*=991*/
+@media (max-width: 991px){
+
+}
+
+/*=767*/
+@media (max-width: 767px){
+
+}
+
+/*=600*/
+@media (max-width:600px){
+
+}
+
+/*=480*/
+@media (max-width:480px){
+
+}
